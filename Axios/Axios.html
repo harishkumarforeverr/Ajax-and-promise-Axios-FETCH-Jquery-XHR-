@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes skewing {
+        0% {
+          transform: translateX(-50%);
+        }
+        50% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      h5 {
+        font-size: 4rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-top: 0;
+        margin-bottom: 0rem;
+        color: darkblue;
+      }
+      h2 {
+        font-size: 2.7vw;
+        color: darkblue;
+      }
+      body {
+        height: 100vh;
+        /* display: grid;
+        justify-items: center;
+        justify-content: center; */
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        background-image: linear-gradient(to right, blue, pink, yellow);
+        animation: skewing 2.5s;
+      }
+      h3 {
+        color: darkblue;
+        font-size: 1.6rem;
+      }
+      img {
+        /* width: 100%; */
+        height: 30vh;
+        border-radius: 50%;
+      }
+      button {
+        width: 60%;
+        height: 5vh;
+        background-color: rgba(0, 38, 255, 0.781);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Axios</h1>
+    <h2>Random Question</h2>
+    <p>Hello world</p>
+    <button id="btn">click me</button>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./Axios.js"></script>
+  </body>
+</html>

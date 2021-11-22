@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mygrid {
+        display: grid;
+        grid-template-rows: 5rem 1fr 3rem;
+        justify-content: center;
+        gap: 5rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mygrid">
+      <h1>These is Bitcoins Api XMLHttpRequest</h1>
+      <h2>
+        Current BitCoins price is :
+        <span style="color: green" id="bitcoin"> </span>
+      </h2> 
+<div>
+
+  <button type="button" id="EUR" > EUR </button> 
+  <button type="button" id="USD" > USD </button> 
+  <button type="button" id="GPI" > GPI </button> 
+</div>
+      </div> 
+    </div>
+    <script src="BitCoin.js"></script>
+  </body>
+</html>
